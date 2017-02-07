@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_open_to_connect"
+        android:summary="The application automatically starts when connect the charger"
+        android:title="Automatically starts" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_notification"
+        android:summary="Switch on/off the permanent notification"
+        android:title="Notification" />
+</PreferenceScreen>
